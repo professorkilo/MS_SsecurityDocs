@@ -75,7 +75,7 @@ Initiatives under this pillar aim to limit lateral movements and enforce explici
 
 Key adoption best practices for identity and secrets protection are summarized in the following table.
 
-**Best practice* | **Zero Trust** | **Adoption considerations** | **Detailed guidance**
+**Best practice** | **Zero Trust** | **Adoption considerations** | **Detailed guidance**
 --- | --- | --- | ---
 Implement of macro and microsegmentation across networks and subnets, separating production, admin, and PaaS service boundaries.<br/><br/>  Restrict admin access via Private Link, Azure Bastion, and just-in-time admin access.<br/><br/>Implement session validation tied to identity state.<br/><br/>Use Secure Access Service Edge (SASE) and Zero Trust network access (ZTNA) instead of VPNs.<br/><br/> Enable and tune Microsoft Defender for network telemetry. | <br/><br/>**Verify explicitly**: Every connection is authenticated, authorized, and encrypted.<br/><br/> **Use least privilege**: Access granted only to required services or segments.<br/><br/>**Assume breach**: Network segmentation and monitoring detect and contain lateral movement. | <br/><br/>Deep understanding of existing traffic flows; segmentation can disrupt legacy integrations.<br/><br/>Retraining users used to VPN-based access on ZTNA rollout.<br/><br/>Additional cost and storage overhead of network telemetry in SIEM. | <br/><br/><br/><br/> [Isolate networks](/security/zero-trust/sfi/network-isolation).
 
