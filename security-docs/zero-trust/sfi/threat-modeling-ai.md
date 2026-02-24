@@ -13,15 +13,13 @@ ms.collection:
 
 # Complete AI threat modeling
 
-**Pillar name: Monitor and detect threats**
-
-**Pattern name: Complete AI threat modeling**
+**Pillar name: Monitor and detect threats**<br/>**Pattern name: Complete AI threat modeling**
 
 ## Context and problem
 
 Threat modeling is a structured method for proactively identifying, assessing, and addressing risks before they become real-world failures or attacks. While traditional software threat modeling focuses on predictable code paths and deterministic behavior, AI-enabled systems break many of those assumptions.
 
--Generative and agentic AI systems are probabilistic, instruction-driven, and capable of interpreting natural language as executable intent. As a result, data and control paths blur, new attack surfaces emerge, and failures often occur at integration boundaries rather than in isolated components.
+Generative and agentic AI systems are probabilistic, instruction-driven, and capable of interpreting natural language as executable intent. As a result, data and control paths blur, new attack surfaces emerge, and failures often occur at integration boundaries rather than in isolated components.
 
 Key challenges include:
 
