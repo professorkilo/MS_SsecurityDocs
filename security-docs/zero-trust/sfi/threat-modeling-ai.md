@@ -54,7 +54,7 @@ Organizations can adopt a similar pattern using the following actionable practic
 GenAI application handling sensitive data   | Treat all external inputs as untrusted and isolate them from system instructions.  |  [Threat modeling AI/ML systems and dependencies](../../engineering/Threat-modeling-aiml.md) |
 | Agentic workflows with tool access   | Apply least-privilege tool scoping and require confirmation for high-risk actions. |  [OWASP-Agentic AI - Threats and mitigations](https://genai.owasp.org/resource/agentic-ai-threats-and-mitigations/) |
 | Multi-agent coordination   | Explicitly define trust relationships and permissions between agents.  | [Microsoft Entra Agent ID](/entra/agent-id/) |
-| High-impact decision support | Add uncertainty signaling and guardrails to prevent overreliance | [Microsoft Foundry-System message design](azure/ai-foundry/openai/concepts/advanced-prompt-engineering) |
+| High-impact decision support | Add uncertainty signaling and guardrails to prevent overreliance | [Microsoft Foundry-System message design](/azure/ai-foundry/openai/concepts/advanced-prompt-engineering) |
 | Production AI systems  | Implement logging, attribution, and audit trails for prompts, tools, and outputs | [Microsoft Incident Response](https://www.microsoft.com/security/business/microsoft-incident-response)  |
 
 
