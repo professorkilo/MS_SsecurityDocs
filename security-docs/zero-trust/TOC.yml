@@ -84,7 +84,9 @@
     expand: false
     items: 
     - name: Overview   
-      href: sfi/secure-future-initiative-threat-overview.md                
+      href: sfi/secure-future-initiative-threat-overview.md  
+    - name: Complete AI threat modeling
+      href: sfi/threat-modeling-ai.md              
     - name: Complete production infrastructure inventory
       href: sfi/complete-production-infrastructure-inventory.md
     - name: Security log retention standards
