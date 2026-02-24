@@ -1,6 +1,6 @@
 ---
 title: Complete AI threat modeling (Secure Future Initiative) – Zero Trust
-description: AI threat modeling in the Secure Future Initiative (SFI) focuses on remediating unique security challenges for generative and agentic AI systems. 
+description: AI threat modeling in the Microsoft SFI focuses on remediating unique security challenges for generative and agentic AI systems. 
 ms.date: 08/05/2025
 ms.service: security
 ms.subservice: zero-trust
