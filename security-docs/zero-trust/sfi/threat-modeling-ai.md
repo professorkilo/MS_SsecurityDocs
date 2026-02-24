@@ -1,6 +1,6 @@
 ---
 title: Complete AI threat modeling (Secure Future Initiative) – Zero Trust
-description: AI threat modeling in the Secure Future Initiative (SFI) focuses on remediating unique security challenges for generative and agentic AI systems. 
+description: AI threat modeling in the Microsoft SFI focuses on remediating unique security challenges for generative and agentic AI systems. 
 ms.date: 08/05/2025
 ms.service: security
 ms.subservice: zero-trust
@@ -13,15 +13,13 @@ ms.collection:
 
 # Complete AI threat modeling
 
-**Pillar name: Monitor and detect threats**
-
-**Pattern name: Complete AI threat modeling**
+**Pillar name: Monitor and detect threats**<br/>**Pattern name: Complete AI threat modeling**
 
 ## Context and problem
 
 Threat modeling is a structured method for proactively identifying, assessing, and addressing risks before they become real-world failures or attacks. While traditional software threat modeling focuses on predictable code paths and deterministic behavior, AI-enabled systems break many of those assumptions.
 
--Generative and agentic AI systems are probabilistic, instruction-driven, and capable of interpreting natural language as executable intent. As a result, data and control paths blur, new attack surfaces emerge, and failures often occur at integration boundaries rather than in isolated components.
+Generative and agentic AI systems are probabilistic, instruction-driven, and capable of interpreting natural language as executable intent. As a result, data and control paths blur, new attack surfaces emerge, and failures often occur at integration boundaries rather than in isolated components.
 
 Key challenges include:
 
